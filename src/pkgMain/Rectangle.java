@@ -8,7 +8,7 @@ public class Rectangle {
 		Length = length;
 		Width = width;
 	}
-	public double getLength() {
+	public double getLength(){
 		return Length;
 	}
 	public double getWidth() {
@@ -18,6 +18,6 @@ public class Rectangle {
 	public double Area()
 	{
 		// TODO Implement Area() function with the correct formula
-		return 0;
+		return Length*Width;
 	}	
 }
